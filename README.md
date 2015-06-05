@@ -10,7 +10,7 @@ Originally built for ASP.NET MVC 6 and AngularJS single page app. Future plans i
 * Refactor Domain Model into its own NuGet package.
 * Refactor APIs to standalone Web API in MVC4 so they can run in Linux with mono.
 * Access via Xamarin app for mobile devices.
-* Integration of other services to get technical information: Shimano, [Velobase](), etc.
+* Integration of other services to get technical information: Shimano, [VeloBase.com](http://www.velobase.com/), etc.
 * Photo library
 * social media sharing
 
