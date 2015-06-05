@@ -1,0 +1,10 @@
+{
+  "AppSettings": {
+    "SiteTitle": "BikeBuilder.MVC"
+  },
+  "Data": {
+    "DefaultConnection": {
+      "ConnectionString": "Server=(localdb)\\mssqllocaldb;Database=aspnet5-BikeBuilder.MVC-db1f1d68-6331-4662-a80d-56bf0874c29f;Trusted_Connection=True;MultipleActiveResultSets=true"
+    }
+  }
+}
