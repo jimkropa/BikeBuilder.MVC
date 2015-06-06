@@ -2,7 +2,10 @@
   "locked": false,
   "version": -9998,
   "projectFileDependencyGroups": {
-    "": [],
+    "": [
+      "Geonetric.DDD.BaseClasses >= 0.0.8",
+      "Geonetric.DDD.Contracts >= 0.0.8"
+    ],
     "DNX,Version=v4.5.1": [],
     "DNXCore,Version=v5.0": [
       "System.Collections >= 4.0.10-beta-22816",
@@ -12,6 +15,70 @@
     ]
   },
   "libraries": {
+    "Geonetric.DDD.BaseClasses/0.0.8": {
+      "serviceable": false,
+      "sha": "E/W2xR2UithbOst3Ymkrm+a2rZ7AdydpugThOX5S4WMkG0dyyKEfcu+HdPOCTRmHmDnjL2KBcmj4Ex3gDSlQbA==",
+      "frameworks": {
+        "DNX,Version=v4.5.1": {
+          "dependencies": {
+            "Geonetric.DDD.Contracts": "0.0.8"
+          },
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [
+            "lib/net/Geonetric.DDD.BaseClasses.dll"
+          ],
+          "compileAssemblies": [
+            "lib/net/Geonetric.DDD.BaseClasses.dll"
+          ]
+        },
+        "DNXCore,Version=v5.0": {
+          "dependencies": {
+            "Geonetric.DDD.Contracts": "0.0.8"
+          },
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [],
+          "compileAssemblies": []
+        }
+      },
+      "files": [
+        "Geonetric.DDD.BaseClasses.0.0.8.nupkg",
+        "Geonetric.DDD.BaseClasses.0.0.8.nupkg.sha512",
+        "Geonetric.DDD.BaseClasses.nuspec",
+        "lib/net/Geonetric.DDD.BaseClasses.dll",
+        "lib/net/Geonetric.DDD.BaseClasses.pdb",
+        "lib/net/Geonetric.DDD.BaseClasses.XML"
+      ]
+    },
+    "Geonetric.DDD.Contracts/0.0.8": {
+      "serviceable": false,
+      "sha": "0fohEAKhOfdSTYS/lhe5M2tmxkH06p+ZRvllF3mfI9IlxBI3Ou37zylrs3zVQd8LBuJyEIKyIGnlvwBwU+Ac7A==",
+      "frameworks": {
+        "DNX,Version=v4.5.1": {
+          "dependencies": {},
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [
+            "lib/net/Geonetric.DDD.Contracts.dll"
+          ],
+          "compileAssemblies": [
+            "lib/net/Geonetric.DDD.Contracts.dll"
+          ]
+        },
+        "DNXCore,Version=v5.0": {
+          "dependencies": {},
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [],
+          "compileAssemblies": []
+        }
+      },
+      "files": [
+        "Geonetric.DDD.Contracts.0.0.8.nupkg",
+        "Geonetric.DDD.Contracts.0.0.8.nupkg.sha512",
+        "Geonetric.DDD.Contracts.nuspec",
+        "lib/net/Geonetric.DDD.Contracts.dll",
+        "lib/net/Geonetric.DDD.Contracts.pdb",
+        "lib/net/Geonetric.DDD.Contracts.XML"
+      ]
+    },
     "Microsoft.CSharp/4.0.0-beta-22816": {
       "serviceable": false,
       "sha": "FGnaYvmoVLd0QTnOyHfm+C79a9CGqQAoh76Ix9++a4SdeaAB8PgpB2Vi/Uc5jcp491QvPyPQjtXCuhRfqWvNkw==",
