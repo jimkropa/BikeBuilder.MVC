@@ -160,7 +160,10 @@ ClientBin/
 *.pfx
 *.publishsettings
 node_modules/
+build/
 project.lock.json
+**/project.lock.json
+**/wwwroot/lib/
 
 # RIA/Silverlight projects
 Generated_Code/
