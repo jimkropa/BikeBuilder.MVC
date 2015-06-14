@@ -3,8 +3,8 @@
   "version": -9998,
   "projectFileDependencyGroups": {
     "": [
-      "Geonetric.DDD.BaseClasses >= 0.0.8",
-      "Geonetric.DDD.Contracts >= 0.0.8"
+      "Geonetric.DDD.BaseClasses >= 0.0.9",
+      "Geonetric.DDD.Contracts >= 0.0.9"
     ],
     "DNX,Version=v4.5.1": [],
     "DNXCore,Version=v5.0": [
@@ -15,68 +15,98 @@
     ]
   },
   "libraries": {
-    "Geonetric.DDD.BaseClasses/0.0.8": {
+    "Geonetric.DDD.BaseClasses/0.0.9": {
       "serviceable": false,
-      "sha": "E/W2xR2UithbOst3Ymkrm+a2rZ7AdydpugThOX5S4WMkG0dyyKEfcu+HdPOCTRmHmDnjL2KBcmj4Ex3gDSlQbA==",
+      "sha": "xvamKSS9LjtDnsCG5q/wYUkw16Y3B8F+FQoOz2n7F6YdfIfbSl9O6K9meVvVY+usgSMtGeByNT0aCHQe5UhRAQ==",
       "frameworks": {
         "DNX,Version=v4.5.1": {
           "dependencies": {
-            "Geonetric.DDD.Contracts": "0.0.8"
+            "Geonetric.DDD.Contracts": "0.0.9"
           },
-          "frameworkAssemblies": [],
+          "frameworkAssemblies": [
+            "mscorlib",
+            "System",
+            "System.Core",
+            "Microsoft.CSharp"
+          ],
           "runtimeAssemblies": [
-            "lib/net/Geonetric.DDD.BaseClasses.dll"
+            "lib/dnx451/Geonetric.DDD.BaseClasses.dll"
           ],
           "compileAssemblies": [
-            "lib/net/Geonetric.DDD.BaseClasses.dll"
+            "lib/dnx451/Geonetric.DDD.BaseClasses.dll"
           ]
         },
         "DNXCore,Version=v5.0": {
           "dependencies": {
-            "Geonetric.DDD.Contracts": "0.0.8"
+            "Geonetric.DDD.Contracts": "0.0.9",
+            "System.Collections": "4.0.10-beta-22816",
+            "System.Linq": "4.0.0-beta-22816",
+            "System.Runtime.Extensions": "4.0.10-beta-22816",
+            "System.Threading": "4.0.10-beta-22816",
+            "Microsoft.CSharp": "4.0.0-beta-22816"
           },
           "frameworkAssemblies": [],
-          "runtimeAssemblies": [],
-          "compileAssemblies": []
+          "runtimeAssemblies": [
+            "lib/dnxcore50/Geonetric.DDD.BaseClasses.dll"
+          ],
+          "compileAssemblies": [
+            "lib/dnxcore50/Geonetric.DDD.BaseClasses.dll"
+          ]
         }
       },
       "files": [
-        "Geonetric.DDD.BaseClasses.0.0.8.nupkg",
-        "Geonetric.DDD.BaseClasses.0.0.8.nupkg.sha512",
+        "Geonetric.DDD.BaseClasses.0.0.9.nupkg",
+        "Geonetric.DDD.BaseClasses.0.0.9.nupkg.sha512",
         "Geonetric.DDD.BaseClasses.nuspec",
-        "lib/net/Geonetric.DDD.BaseClasses.dll",
-        "lib/net/Geonetric.DDD.BaseClasses.pdb",
-        "lib/net/Geonetric.DDD.BaseClasses.XML"
+        "lib/dnx451/Geonetric.DDD.BaseClasses.dll",
+        "lib/dnx451/Geonetric.DDD.BaseClasses.xml",
+        "lib/dnxcore50/Geonetric.DDD.BaseClasses.dll",
+        "lib/dnxcore50/Geonetric.DDD.BaseClasses.xml"
       ]
     },
-    "Geonetric.DDD.Contracts/0.0.8": {
+    "Geonetric.DDD.Contracts/0.0.9": {
       "serviceable": false,
-      "sha": "0fohEAKhOfdSTYS/lhe5M2tmxkH06p+ZRvllF3mfI9IlxBI3Ou37zylrs3zVQd8LBuJyEIKyIGnlvwBwU+Ac7A==",
+      "sha": "AJGNIceoXGWHpekuHO/MKkJqa4XM3IzRdbmJiQBpNv8VLxljTrerTBT/Drad1ri/Nn7Odj96tcDjGdZanQ6eog==",
       "frameworks": {
         "DNX,Version=v4.5.1": {
           "dependencies": {},
-          "frameworkAssemblies": [],
+          "frameworkAssemblies": [
+            "mscorlib",
+            "System",
+            "System.Core",
+            "Microsoft.CSharp"
+          ],
           "runtimeAssemblies": [
-            "lib/net/Geonetric.DDD.Contracts.dll"
+            "lib/dnx451/Geonetric.DDD.Contracts.dll"
           ],
           "compileAssemblies": [
-            "lib/net/Geonetric.DDD.Contracts.dll"
+            "lib/dnx451/Geonetric.DDD.Contracts.dll"
           ]
         },
         "DNXCore,Version=v5.0": {
-          "dependencies": {},
+          "dependencies": {
+            "System.Collections": "4.0.10-beta-22816",
+            "System.Linq": "4.0.0-beta-22816",
+            "System.Threading": "4.0.10-beta-22816",
+            "Microsoft.CSharp": "4.0.0-beta-22816"
+          },
           "frameworkAssemblies": [],
-          "runtimeAssemblies": [],
-          "compileAssemblies": []
+          "runtimeAssemblies": [
+            "lib/dnxcore50/Geonetric.DDD.Contracts.dll"
+          ],
+          "compileAssemblies": [
+            "lib/dnxcore50/Geonetric.DDD.Contracts.dll"
+          ]
         }
       },
       "files": [
-        "Geonetric.DDD.Contracts.0.0.8.nupkg",
-        "Geonetric.DDD.Contracts.0.0.8.nupkg.sha512",
+        "Geonetric.DDD.Contracts.0.0.9.nupkg",
+        "Geonetric.DDD.Contracts.0.0.9.nupkg.sha512",
         "Geonetric.DDD.Contracts.nuspec",
-        "lib/net/Geonetric.DDD.Contracts.dll",
-        "lib/net/Geonetric.DDD.Contracts.pdb",
-        "lib/net/Geonetric.DDD.Contracts.XML"
+        "lib/dnx451/Geonetric.DDD.Contracts.dll",
+        "lib/dnx451/Geonetric.DDD.Contracts.xml",
+        "lib/dnxcore50/Geonetric.DDD.Contracts.dll",
+        "lib/dnxcore50/Geonetric.DDD.Contracts.xml"
       ]
     },
     "Microsoft.CSharp/4.0.0-beta-22816": {
@@ -519,6 +549,49 @@
         "lib/contract/System.Runtime.dll",
         "lib/net45/System.Runtime.dll",
         "lib/portable-wpa81+wp80+win80+net45+aspnetcore50/System.Runtime.dll"
+      ]
+    },
+    "System.Runtime.Extensions/4.0.10-beta-22816": {
+      "serviceable": false,
+      "sha": "VyMZA1a7c1j9lbSarndGwFLEpip5uhl3oZTjW2fR8Lte0lWKB8Aro8rRoEHsWd5vUd3/kYDOvIXvGpCKBMlW1g==",
+      "frameworks": {
+        "DNX,Version=v4.5.1": {
+          "dependencies": {
+            "System.Runtime": "4.0.20-beta-22816"
+          },
+          "frameworkAssemblies": [
+            "mscorlib",
+            "System"
+          ],
+          "runtimeAssemblies": [
+            "lib/net45/System.Runtime.Extensions.dll"
+          ],
+          "compileAssemblies": [
+            "lib/net45/System.Runtime.Extensions.dll"
+          ]
+        },
+        "DNXCore,Version=v5.0": {
+          "dependencies": {
+            "System.Runtime": "4.0.20-beta-22816"
+          },
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [
+            "lib/aspnetcore50/System.Runtime.Extensions.dll"
+          ],
+          "compileAssemblies": [
+            "lib/contract/System.Runtime.Extensions.dll"
+          ]
+        }
+      },
+      "files": [
+        "License.rtf",
+        "System.Runtime.Extensions.4.0.10-beta-22816.nupkg",
+        "System.Runtime.Extensions.4.0.10-beta-22816.nupkg.sha512",
+        "System.Runtime.Extensions.nuspec",
+        "lib/aspnetcore50/System.Runtime.Extensions.dll",
+        "lib/contract/System.Runtime.Extensions.dll",
+        "lib/net45/System.Runtime.Extensions.dll",
+        "lib/portable-wpa81+wp80+win80+net45+aspnetcore50/System.Runtime.Extensions.dll"
       ]
     },
     "System.Text.Encoding/4.0.10-beta-22816": {

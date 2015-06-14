@@ -20,9 +20,9 @@ Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "BikeBuilder.MVC", "src\Bike
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{59B32552-BAEA-4009-82F1-271F3FAF26AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BikeBuilder.WebAPI.Tests", "tests\BikeBuilder.WebAPI.Tests\BikeBuilder.WebAPI.Tests.csproj", "{324F14C8-D73B-4A7D-8480-1806B287A8CF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BikeBuilder.WebAPI.Tests", "test\BikeBuilder.WebAPI.Tests\BikeBuilder.WebAPI.Tests.csproj", "{324F14C8-D73B-4A7D-8480-1806B287A8CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BikeBuilder.Model.Tests", "tests\BikeBuilder.Model.Tests\BikeBuilder.Model.Tests.csproj", "{BD2C1A10-6D9F-42A3-A797-86350F27EED2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BikeBuilder.Model.Tests", "test\BikeBuilder.Model.Tests\BikeBuilder.Model.Tests.csproj", "{BD2C1A10-6D9F-42A3-A797-86350F27EED2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

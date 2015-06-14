@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "C:\\Users\\jkropa\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe",
+      "environmentVariables": {
+        "ASPNET_ENV": "Development"
+      }
+    }
+  }
+}
