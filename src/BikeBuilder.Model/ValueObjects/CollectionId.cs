@@ -2,11 +2,21 @@
 {
 	using System;
 
-	using Geonetric.DDD.Model;
 	using Geonetric.DDD.Model.MultiTenant;
 
-	public sealed class CollectionId : IdentityGuidBase, IOrganizationIdentifier
+	public sealed class CollectionId : OrganizationIdentifier // IdentityGuidBase, IOrganizationIdentifier
 	{
+		public CollectionId(string guidString)
+			: base(guidString)
+		{
+		}
+
+		public CollectionId(Guid id)
+			: base(id)
+		{
+		}
+
+		/*
 		Guid IIdentity<Guid>.Id
 		{
 			get
@@ -32,5 +42,6 @@
 		{
 			return this.IsEmpty();
 		}
+		*/
 	}
 }
